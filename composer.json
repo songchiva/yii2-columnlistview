@@ -3,7 +3,7 @@
     "description": "Responsive column boostrap for yii2.x up",
     "type": "metapackage",
     "license": "MIT",
-    "homepage": "https://chivasong@bitbucket.org/eyesmart/yii2-columnlistview.git",
+    "homepage": "https://github.com/songchiva/yii2-columnlistview.git",
     "authors": [
         {
             "name": "Chiva Song",
@@ -15,7 +15,7 @@
     "repositories": [
         {
             "type": "git",
-            "url": "https://chivasong@bitbucket.org/eyesmart/yii2-columnlistview"
+            "url": "https://github.com/songchiva/yii2-columnlistview.git"
         }
     ]
 }
