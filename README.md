@@ -36,3 +36,4 @@ to the require section of your composer.json file.
 			'itemView' => '_itemDetail', //render the view: _itemDetail (single view)
 			'summary' => '<span class="mbottom10 btn" style="background-color: #50CBFB; color: #FFF;"> Show Internship List {count} of Total {totalCount}</span>',
 	])
+
