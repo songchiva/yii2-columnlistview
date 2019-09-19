@@ -1,5 +1,5 @@
 {
-    "name": "chiva/yii2-columnlistview",
+    "name": "songchiva/yii2-columnlistview",
     "description": "Responsive column boostrap for yii2.x up",
     "keywords": [
         "songchiva",
@@ -28,7 +28,7 @@
     },
     "autoload": {
         "psr-4": {
-            "chiva\\widgets\\": ""
+            "songchiva\\widgets\\": ""
         }
     }
 }
