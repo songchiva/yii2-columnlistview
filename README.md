@@ -14,10 +14,10 @@ Generates fully responsive columns;
 ## Installation
 
 Either run:
-1. $ php composer.phar require chiva/yii2-columnlistview "*"
+php composer.phar require songchiva/yii2-columnlistview "dev-master"
 
-Or add
-1. "chiva/yii2-columnlistview": "*"
+Or: add
+"songchiva/yii2-columnlistview": "dev-master"
 
 to the require section of your composer.json file.
 
@@ -25,15 +25,21 @@ to the require section of your composer.json file.
 
 ## Basic usage
 
-   use circulon\widgets\ColumnListView;
-    
-		echo ColumnListView::widget([
-			'dataProvider' => $dataProvider,
+	use circulon\widgets\ColumnListView;
+	echo ColumnListView::widget([
+		'dataProvider' => $dataProvider,
 
-			'columns' => 3, // 3 columns will be displayed. You can set from value 2 to 12 of colunms property
-			'layout' => '',
-			'emptyText' => '', //error message if no data found in db
-			'itemView' => '_itemDetail', //render the view: _itemDetail (single view)
-			'summary' => '<span class="mbottom10 btn" style="background-color: #50CBFB; color: #FFF;"> Show Internship List {count} of Total {totalCount}</span>',
-	])
+		'columns' => 3, // 3 columns will be displayed. You can set from value 2 to 12 of colunms property
+		'layout' => '',
+		'emptyText' => '', //error message if no data found in db
+		'itemView' => '_itemDetail', //render the view: _itemDetail (single view)
+		'summary' => '<span 
+				class="mbottom10 btn" 
+				style="background-color: #50CBFB; color: #FFF;"> 
+				Show Internship List {count} of Total {totalCount}
+			      </span>',
+		 //...........
+	]);
+
+---
 
