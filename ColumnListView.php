@@ -1,6 +1,6 @@
 <?php
 
-namespace chiva\widgets;
+namespace songchiva\widgets;
 
 use yii\helpers\Html;
 use yii\helpers\ArrayHelper;
@@ -10,7 +10,10 @@ use yii\helpers\ArrayHelper;
  * provider in a (fully responsive) columnar layout. Each data model is rendered
  * using the view specified.
  *
- * @author Chiva Song chiva.song@hotmail.com
+ * @Author Chiva Song chiva.song@hotmail.com
+ * @Role Developer
+ * @Location Phnom Penh, Cambodia
+ * @Year 2019
  */
 class ColumnListView extends \yii\widgets\ListView
 {
@@ -41,37 +44,37 @@ class ColumnListView extends \yii\widgets\ListView
      * @var array the HTML attributes for the container tag of the row.
      */
     public $columnsLayout = [
-      2 => [
+      2 => [// col-xx-2
         2 => [ self::SIZE_SMALL, self::SIZE_MEDIUM, self::SIZE_LARGE],
       ],
-      3 => [
+      3 => [// col-xx-3
         3 => [self::SIZE_MEDIUM, self::SIZE_LARGE, self::SIZE_SMALL],
       ],
-      4 => [
+      4 => [// col-xx-4
         4 => [self::SIZE_MEDIUM, self::SIZE_LARGE, self::SIZE_SMALL],
       ],
-      5 => [
+      5 => [// col-xx-5
         5 => [self::SIZE_MEDIUM, self::SIZE_LARGE, self::SIZE_SMALL],
       ],
-      6 => [
+      6 => [// col-xx-6
         6 => [ self::SIZE_MEDIUM, self::SIZE_LARGE, self::SIZE_SMALL ],
       ],
-      7 => [
+      7 => [// col-xx-7
         7 => [ self::SIZE_MEDIUM, self::SIZE_LARGE, self::SIZE_SMALL ],
       ],
-      8 => [
+      8 => [// col-xx-8
         8 => [ self::SIZE_MEDIUM, self::SIZE_LARGE, self::SIZE_SMALL ],
       ],
-      9 => [
+      9 => [// col-xx-9
         9 => [ self::SIZE_MEDIUM, self::SIZE_LARGE, self::SIZE_SMALL ],
       ],
-      10 => [
+      10 => [// col-xx-10
         10 => [ self::SIZE_MEDIUM, self::SIZE_LARGE, self::SIZE_SMALL ],
       ],
-      11 => [
+      11 => [// col-xx-11
         11 => [ self::SIZE_MEDIUM, self::SIZE_LARGE, self::SIZE_SMALL ],
       ],
-      12 => [
+      12 => [// col-xx-12
         12 => [ self::SIZE_MEDIUM, self::SIZE_LARGE, self::SIZE_SMALL ],
       ],
     ];
@@ -142,6 +145,4 @@ class ColumnListView extends \yii\widgets\ListView
 
       return ['class' => $opts];
     }
-
-
 }
