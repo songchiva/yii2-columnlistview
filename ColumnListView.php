@@ -1,6 +1,6 @@
 <?php
 
-namespace circulon\widgets;
+namespace chiva\widgets;
 
 use yii\helpers\Html;
 use yii\helpers\ArrayHelper;
