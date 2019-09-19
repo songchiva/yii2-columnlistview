@@ -25,7 +25,7 @@ to the require section of your composer.json file.
 
 ## Basic usage
 
-	use circulon\widgets\ColumnListView;
+	use songchiva\widgets\ColumnListView;
 	echo ColumnListView::widget([
 		'dataProvider' => $dataProvider,
 
