@@ -1,21 +1,39 @@
 {
-    "name": "chiva/yii2-columnlistview",
+    "name": "songchiva/yii2-columnlistview",
     "description": "Responsive column boostrap for yii2.x up",
-    "type": "metapackage",
+    "keywords": [
+        "songchiva",
+        "yii",
+        "yii2",
+        "yii 2",
+        "listview",
+        "list view",
+        "responsive",
+        "column",
+        "columns"
+    ],
+    "type": "yii2-extension",
     "license": "MIT",
     "homepage": "https://github.com/songchiva/yii2-columnlistview.git",
     "authors": [
         {
             "name": "Chiva Song",
-            "email": "chiva.song@akilabs.co"
+            "email": "chiva.song@akilabs.co",
+            "role": "Developer"
         }
     ],
     "minimum-stability": "stable",
-    "require": {},
-    "repositories": [
-        {
-            "type": "git",
-            "url": "https://github.com/songchiva/yii2-columnlistview.git"
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "songchiva\\widgets\\": ""
         }
-    ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "v1.0.0"
+        }
+    }
 }
