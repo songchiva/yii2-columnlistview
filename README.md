@@ -1,8 +1,8 @@
+---
 ## Yii2-columnlistview
+
 Yii2-columnlistview for building a responsive column layout like boostrap
 This is ideal for portfolio style layout of model/s content
-
----
 
 ## Feature
 
@@ -18,8 +18,6 @@ For example:
 Easily configurable for custom layouts
 
 Generates fully responsive columns
-
----
 
 ## Installation
 
@@ -37,8 +35,6 @@ to the require section of your composer.json file.
 Then run: 
 
 	composer update
-
----
 
 ## Basic usage
 
