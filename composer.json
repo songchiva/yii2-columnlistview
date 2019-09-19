@@ -31,9 +31,4 @@
             "songchiva\\widgets\\": ""
         }
     },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "v1.0.0"
-        }
-    }
 }
